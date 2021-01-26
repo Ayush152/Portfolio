@@ -1,0 +1,160 @@
+/*
+*{
+    margin: 0;
+    padding: 0;
+}*/
+body {
+  background-color:#343b3f;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  line-height: 1.6em;
+  margin: 0;
+  
+}
+
+.container{
+    width:100%;
+    margin:auto;
+}
+
+#main-header{
+    background-color: black;
+}
+
+#main-header::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+
+#navbar ul {
+  padding: 0px;
+  list-style: none;
+  float: right;
+}
+
+#navbar li {
+  display: inline-block;
+  padding-right: 30px;
+  padding-top: 18px;
+  
+  position: relative;
+  
+}
+
+#navbar a {
+  color:white;
+  text-decoration: none;
+  font-size: 25px;
+  padding-right: 20px;
+}
+
+.button{
+    border: none;
+}
+
+.button a::before{
+    content: '';
+    display: block;
+    height: 5px;
+    
+    background-color: rgba(139, 131, 60, 0.897);
+
+    position: absolute;
+    top: 0;
+    width: 0%;
+}
+
+.button a:hover::before{
+     width: 70%;
+}
+
+.mine {
+    object-fit: cover;
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    width: 300px;
+    height: 300px;    
+}
+
+.icons{
+    text-align: center;
+    padding-bottom: 20px;
+}
+.icons a{
+    color:azure;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-decoration: none;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+.icons a:hover{
+    color: rgb(133, 134, 136);
+    transition: all 0.5s ease-out;
+}
+
+.name-tag{
+    text-align: center;
+    font-size: 30px;
+    color:ivory;
+    text-decoration:underline;
+    text-transform: bold;
+    word-spacing: 0.3em;
+}
+
+.data{
+    margin-top: 0px;
+    color:bisque;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font: normal 25px tahoma;
+    box-sizing: border-box;
+    border: 3px dotted #444;
+}
+
+.heading{
+    text-align: center;
+    margin-top: 80px;
+    text-transform: bold;
+    color:#fff;
+    font-size: 50px;
+}
+
+#main-footer{
+    background: black;
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+    padding: 0.3px;  
+    margin: 0; 
+}
+
+#hobby{
+    text-align: center;
+    list-style: none;
+    margin-left: 250px;
+    margin-right: 250px;
+}
+
+#skill{
+    text-align: center;
+    list-style: none;
+    margin-left: 250px;
+    margin-right: 250px;
+    word-spacing: 1.6em;
+}
+
+#star-rating{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
