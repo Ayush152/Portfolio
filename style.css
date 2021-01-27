@@ -38,9 +38,7 @@ body {
   display: inline-block;
   margin-right: 30px;
   padding-top: 18px;
-  
-  position: relative;
-  
+  position: relative; 
 }
 
 #navbar a {
